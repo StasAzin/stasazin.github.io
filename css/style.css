@@ -1,0 +1,389 @@
+body {
+    font-family: Arial, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.section-title {
+	align-items: center;
+	font-size: 40px;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* header */
+
+header {
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgb(255, 255, 255, 0.5);
+}
+
+.empty {
+	height: 129.56px;
+}
+
+.header-content {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 0 5px 0;
+	max-height: 134.56px;
+	width: 1200px;
+}
+
+.header-logo {
+	margin-right: 0 20px 0 0;
+	cursor: pointer;
+}
+
+.header-logo img {
+	width: 100px;
+}
+
+.header-text {
+	margin: 0 20px 0 50px;
+}
+
+.logo-main {
+	font-size: 40px;
+	text-decoration: none;
+	font-style: italic;
+	color: #000;
+	line-height: 26px;
+	font-weight: 700;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+	font-size: 20px;
+    color: #000;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #000;
+}
+
+.social {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+	align-items: flex-end;
+}
+
+.social a {
+    margin: 10px 0 0 10px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #000;
+}
+
+.social a:hover {
+	color: #FFA500;
+}
+
+/* Welcome */
+.welcome-section {
+    margin: 0 auto;
+	display: flex;
+	justify-content: center;
+    height: 700px;
+	background-image: url("../img/travel-welcome.jpg");
+	background-size: cover;
+	background-position: bottom center;
+	text-align: center;
+	overflow: auto;
+}
+
+.welcome-section-content {
+	display: flex;
+	justify-content: center;
+	width: 1200px;
+}
+
+.welcome-content {
+	padding: 180px 0 0 0;
+}
+
+.welcome-content h1 {
+	font-size: 58px;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.button-tour {
+	display: inline-block;
+    padding: 20px 40px;
+    background-color: #92278F;
+    text-decoration: none;
+    border-radius: 5px;
+	font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.button-tour:hover {
+	background-color: #C236BE;
+}
+
+/* О нас */
+.about-section {
+    margin: 0 auto;
+	display: flex;
+	justify-content: center;
+    max-height: 520px;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/travel-about.jpg");
+	background-size: cover;
+	background-position: bottom center;
+	text-align: center;
+	overflow: auto;
+}
+
+.about-section-content {
+	margin: 20px 0 20px 0;
+	display: flex;
+	justify-content: center;
+	width: 1200px;
+}
+
+.about-content {
+	padding: 20px;
+	max-width: 1000px;
+	background-color: rgb(24, 15, 23, 0.9);
+	padding: 20px;
+}
+
+.about-content p {
+	font-size: 22px;
+	color: #fff;
+	text-align: left;
+}
+
+/* Туры */
+
+.tour-section {
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    padding: 20px 0;
+	background-color: #F6F3EC;
+}
+
+.tour-contents {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.tour-section h1 {
+    font-size: 40px;
+}
+
+.tour-section h2 {
+    margin: 0;
+}
+
+.tour-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tour-column-style {
+    text-align: center;
+    box-sizing: border-box;
+	border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(235, 235, 235, 0.1);
+	background-color: #fff;
+	margin: 10px;
+	padding-bottom: 20px;
+}
+
+.tour-column-style img {
+	width: 380px;
+	height: 180px;
+}
+
+.tour-column-style h3 {
+	text-align: right;
+	margin: 0;
+	margin-right: 20px;
+}
+
+.tour-text-right {
+	text-align: right;
+	margin-right: 20px;
+}
+
+.tour-column-style p {
+	margin: 0;
+	padding: 0 20px;
+	height: 120px;
+	overflow: auto;
+}
+
+/* Отзывы */
+.reviews-section {
+    padding: 20px 0;
+    text-align: center;
+    justify-content: center;
+	background-color: pink;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/sky.jpg");
+	background-size: cover;
+}
+
+.reviews-section-center {
+	display: flex;
+	justify-content: center;
+}
+
+.reviews-content {
+	width: 1200px;
+	display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.reviews-all {
+    width: 580px;
+	padding: 20px 0 20px 0;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(235, 235, 235, 0.1);
+	background-color: rgb(240, 240, 240, 0.85);
+	max-height: 300px;
+	overflow: auto;
+}
+
+.reviews-1 {
+	margin: 0 20px 20px 0;
+}
+
+.reviews-2 {
+	margin: 0 0 20px 0;
+}
+
+.user-photo {
+    border-radius: 50%;
+    width: 163px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.reviews-content p {
+    font-size: 20px;
+    width: 347px;
+	margin-right: 20px;
+}
+
+.author-name {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/**/
+.contact-form-section {
+	padding: 50px 0;
+	background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("../img/form-1.jpg");
+	background-size: cover;
+	background-position: bottom center;
+}
+
+.contact-form {
+	margin: 0 auto;
+	text-align: center;
+	width: 420px;	
+	padding: 20px 0 40px 0;
+	background-color: rgb(256, 256, 256, 0.8);
+}
+
+.contact-big {
+	font-size: 36px;
+	margin: 0 0 20px 0;
+}
+
+.contact-small {
+	font-size: 24px;
+	margin: 0 0 30px 0;
+}
+
+.contact-form input {
+	width: 320px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	height: 40px;
+}
+
+.contact-form button {
+	background-color: #92278F;
+	color: #fff;
+	border: none;
+	padding: 10px 90px;
+	margin-top: 10px;
+	font-size: 20px;
+	box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form button:hover {
+	background-color: #C236BE;
+}
+
+/* footer */
+footer {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer .untitled {
+    text-transform: uppercase;
+}
+
+/* Стили для экрана от 600 до 850px */
+@media screen and (max-width: 849px) {
+	.empty {
+		height: 53px;
+	}
+
+    .tour-columns {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+	.social, .header-logo {
+		display: none;
+	}
+
+	.reviews-content {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.reviews-3 {
+		margin: 0 0 20px 0;
+	}
+}
+
+
